@@ -4,8 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FindTheMedian_InsertionSort {
-    public static int findMedian(List<Integer> arr) {
-        // Write your code here
+    public static int findMedian(List<Integer> arr) { // O n^2
 
         List<Integer> mutableArr = new ArrayList<>(arr);
 
